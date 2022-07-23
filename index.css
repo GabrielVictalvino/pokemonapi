@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Poppins:wght@200;400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(img/pokemon-fundo.png);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header, footer{
+    background-color: #2A99C9;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+header{
+    margin-bottom: 1%;
+}
+
+footer{
+    margin-top: 1%;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+span {
+    color: #2f67b2;
+}
+
+hr {
+    margin: 10px 0;
+    border-top: 3px solid #BBB;
+    border-radius: 5px;
+}
+
+.container{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+    max-width: 450px;
+    min-height: 300px;
+}
+
+.img, #imgPokemon {
+    text-align: center;
+}
+
+.img img {
+    width: 90%;
+}
+
+.group-form {
+    padding: 5px 0;
+
+}
+
+.group-form label {
+    font-weight: 900;
+    color: #1b356e;
+}
+
+.group-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.group-form input[type=submit]{
+    background: #1b356e;
+    font-weight: 900;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.group-form input[type=submit]:hover {
+    background: #2b4f9c;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgPokemon {
+    width: 90px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    margin: 5px;
+}
+
+#content { 
+    background: #FFCC01;
+    color: #333;
+    font-family: monospace;
+    padding: 10px;
+    border: 1px solid #c8a102;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
